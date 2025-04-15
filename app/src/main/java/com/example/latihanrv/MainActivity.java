@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements AdapterListMakana
         dataMakanan.add(new MakananModel("Sate Daging", "Rp 15.000", "Pedas", R.drawable.satedaging));
         dataMakanan.add(new MakananModel("Martabak", "Rp 20.000", "Sedikit Pedas", R.drawable.martabak));
         dataMakanan.add(new MakananModel("Terang Bulan", "Rp 15.000", "Tidak Pedas", R.drawable.terangbulan));
+        dataMakanan.add(new MakananModel("Terang Bulan", "Rp 15.000", "Tidak Pedas", R.drawable.terangbulan));
 
         //call adapter
         AdapterListMakanan adapterListMakanan = new AdapterListMakanan(dataMakanan, this);
